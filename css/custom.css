@@ -2,6 +2,8 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
+    font-style: "futura";
+    font-size: 15px;     
 }
 .jumbotron {
 	text-align:center;
@@ -11,7 +13,7 @@ body {
 
 /* For Dropdown button on hover & focus */
 .dropbtn {
-    background-color: #4C4CFF;
+    background-color: #265a88;
     color: white;
     padding: 16px;
     font-size: 16px;
