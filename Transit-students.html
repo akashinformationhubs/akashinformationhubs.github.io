@@ -1,111 +1,202 @@
 <html lang="en">
-  <head>
-  	<link href=" css/bootstrap.min.css" rel="stylesheet">
-  </head>
-  <body>
-<nav class="navbar navbar-default" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand"  href="index.html">Information Hubs</a>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+<br>
+
+    <title>Travel as a student</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/blog-post.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+   <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand"  href="index.html">Information Hubs</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">  
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+            &nbsp;
+          <a href="registration.html">New?? Register Here</a>
+          </form>
           <ul class="nav navbar-nav">
             <li><a href="index.html">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
+        </div><!--/.nav-collapse -->
+      </div>
     </nav>
+    <!-- Page Content -->
+    <div class="container">
 
-<div class="container">
-<div class="row">
-    <div class="box">
-		<form role="form">
-			<h2>Please Sign Up <small>It's free and always will be.</small></h2>
-			<hr class="colorgraph">
-			<div class="row">
-				<div class="col-xs-12 col-sm-6 col-md-6">
-					<div class="form-group">
-                        <input type="text" name="first_name" id="first_name" class="form-control input-lg" placeholder="First Name" tabindex="1">
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-6">
-					<div class="form-group">
-						<input type="text" name="last_name" id="last_name" class="form-control input-lg" placeholder="Last Name" tabindex="2">
-					</div>
-				</div>
-			</div>
-			<div class="form-group">
-				<input type="text" name="display_name" id="display_name" class="form-control input-lg" placeholder="Display Name" tabindex="3">
-			</div>
-			<div class="form-group">
-				<input type="email" name="email" id="email" class="form-control input-lg" placeholder="Email Address" tabindex="4">
-			</div>
-			<div class="row">
-				<div class="col-xs-12 col-sm-6 col-md-6">
-					<div class="form-group">
-						<input type="password" name="password" id="password" class="form-control input-lg" placeholder="Password" tabindex="5">
-					</div>
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-6">
-					<div class="form-group">
-						<input type="password" name="password_confirmation" id="password_confirmation" class="form-control input-lg" placeholder="Confirm Password" tabindex="6">
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-4 col-sm-3 col-md-3">
-					<span class="button-checkbox">
-						<button type="button" class="btn" data-color="info" tabindex="7">I Agree</button>
-                        <input type="checkbox" name="t_and_c" id="t_and_c" class="hidden" value="1">
-					</span>
-				</div>
-				<div class="col-xs-8 col-sm-9 col-md-9">
-					 By clicking <strong class="label label-primary">Register</strong>, you agree to the <a href="#" data-toggle="modal" data-target="#t_and_c_m">Terms and Conditions</a> set out by this site, including our Cookie Use.
-				</div>
-			</div>
-			
-			<hr class="colorgraph">
-			<div class="row">
-				<div class="col-xs-12 col-md-6"><input type="submit" value="Register" class="btn btn-primary btn-block btn-lg" tabindex="7"></div>
-				<div class="col-xs-12 col-md-6"><a href="#" class="btn btn-success btn-block btn-lg">Sign In</a></div>
-			</div>
-		</form>
-	</div>
-</div>
-<!-- Modal -->
-<div class="modal fade" id="t_and_c_m" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	<div class="modal-dialog modal-lg">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-				<h4 class="modal-title" id="myModalLabel">Terms & Conditions</h4>
-			</div>
-			<div class="modal-body">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum at sapiente consequuntur natus odio reiciendis perferendis rem nisi tempore possimus ipsa porro delectus quidem dolorem ad.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum at sapiente consequuntur natus odio reiciendis perferendis rem nisi tempore possimus ipsa porro delectus quidem dolorem ad.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum at sapiente consequuntur natus odio reiciendis perferendis rem nisi tempore possimus ipsa porro delectus quidem dolorem ad.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum at sapiente consequuntur natus odio reiciendis perferendis rem nisi tempore possimus ipsa porro delectus quidem dolorem ad.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum at sapiente consequuntur natus odio reiciendis perferendis rem nisi tempore possimus ipsa porro delectus quidem dolorem ad.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum at sapiente consequuntur natus odio reiciendis perferendis rem nisi tempore possimus ipsa porro delectus quidem dolorem ad.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, itaque, modi, aliquam nostrum at sapiente consequuntur natus odio reiciendis perferendis rem nisi tempore possimus ipsa porro delectus quidem dolorem ad.</p>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-primary" data-dismiss="modal">I Agree</button>
-			</div>
-		</div><!-- /.modal-content -->
-	</div><!-- /.modal-dialog -->
-</div><!-- /.modal -->
-</div>
+        <div class="row">
+
+            <!-- Blog Post Content Column -->
+            <div class="col-lg-8">
+
+                <!-- Blog Post -->
+
+                <!-- Title -->
+                <br>
+                <br>
+                <h1>Traveling as a F-1 Student</h1>
+                <hr>
+
+                <!-- Date/Time -->
+                <p><span class="glyphicon glyphicon-time"></span> Posted on August 24, 2013 at 9:00 PM</p>
+
+                <hr>
+
+                <!-- Preview Image -->
+                <img class="img-responsive" src="images/ssn.jpg" alt="">
+                <hr>
+
+                <!-- Post Content -->
+                <div align="justify">
+                <p class="lead"><strong><ul><h3>Travel Outside the U.S.</h3></strong><br>
+              <p>• If you are planning to travel outside the U.S., please remember to do the following before you leave:</p> 
+              <p>• Contact the nearest consulate or embassy of each country that you wish to visit.</p>
+              <p>• This process may take several months, so inquire early.</p>
+              <p>• Embassies in the U.S. can be found at: <a href="http://www.state.gov/s/cpr/rls/">http://www.state.gov/s/cpr/rls/</a></p>
+                <h3>Obtain a travel endorsement (signature) from International Programs Office</h3>
+                <p>• Bring your I-20 to the International Programs Office in FOB316 at least 5 days
+                  before your departure.</p>
+                <p>• If you have maintained your lawful status, are not academically deficient or do not have an outstanding bill at the end of the semester, you can receive a travel
+                endorsement signature that should allow you to re-enter the U.S.</p>
+                <p>• Travel endorsements are valid for one year, but we recommend that you have a travel endorsement valid within 6 months. </p>
+                <h3>Check your passport validity.</h3>
+                <p>• Your passport should be valid at least 6 months beyond the date you plan to re-enter the U.S. </p>
+                <p>• If you need to renew your passport, plan to renew it well before you leave the U.S. or before you return to the U.S.</p>
+                <p>• Also, check to see that you have your I-94 card (stapled to your passport or I-20).
+                You will be required to surrender your I-94 if you leave North America. </p>
+              <h3>Check your visa validity.</h3>
+                <p>• To re-enter the U.S. you must have a valid visa, unless you are traveling to Canada, Mexico or adjacent islands of the Caribbean for less than 30 days (excluding Cuba), whereby you can re-enter the U.S. through "automatic revalidation" (see below).</p>
+                <p>• If your visa has expired or will expire while you are outside of the U.S. or if you have a single entry visa, you will need to obtain a new visa while you are outside of the U.S.</p>
+                <p>• It is impossible to obtain a visa in the U.S. It is currently not advisable to apply for a U.S. visa in Canada or Mexico. If you choose to do so and your visa is DENIED, you will not be eligible to re-enter the U.S. as part of the "automatic extension of visa validity".</p> 
+              <h3>Travel to Canada or Mexico.</h3>
+                <p>To facilitate entry into Canada or Mexico as a visitor, you must carry all the documents listed above except for valid F-1 visa stamp for some students, and the I-94 departure card.</p>
+                <p>In addition, a visitor's visa may be required depending on your country of citizenship. F-1 students or their dependents that are planning a trip to Canada or Mexico should contact the respective consulate offices to determine whether a visitor's visa to the country is needed prior to your trip.</p><br>
+                <p>Mexican Consulate: http://www.sre.gob.mx/nuevayork/
+                   Canada: http://www.cic.gc.ca/english/information/applications/visa.asp</p>
+              <h3>Automatic Extension of Validity of Visa (Automatic Revalidation). </h3>
+                <p>If you travel to Canada, Mexico or the adjacent islands of the Caribbean, other than Cuba, for 30 days or less, you may be eligible to re-enter the U.S. without a valid U.S. visa stamp in your passport.</p>
+                <p>This benefit also applies to individuals who have changed non-immigrant status in the U.S., whose visa is in the category in which they entered the U.S. (the visa is considered "converted" as well as "extended").</p>
+                <p>This procedure is not available to nationals of Iraq, Cuba, Sudan, Iran, Libya, Syria and North Korea.</p><br>
+                  <p>Note: If you choose to apply for a visa renewal while visiting a neighboring country and are denied, you will not be eligible for the automatic revalidation benefit, but you will need to apply again from your home country.</p>
+              <h3>Required Documents for Re-Entry</h3>
+                <p>In order to re-enter the U.S. after a temporary absence (not exceeding 5 months) you must carry the following documents:</p>
+                <p>• Valid Passport</p>
+                <p>• Valid F-1 visa stamp-except for short trip to Canada, Mexico or adjacent islands</p>
+                <p>• Valid I-20 with travel endorsement signature from International Programs Office. An F-1 student who is out of status must have a new "initial attendance" I-20</p>
+                <p>• Evidence of adequate finances</p> 
+                <p>• Business card of International Programs Office Staff Member.</p>
+                <p>• Copy of your transcript and current course schedule (optional but recommended)</p>
+                <p>• Your university student ID card (optional but recommended)</p>
+                <p>• F-1 students on OPT must have an EAD card if approved, or Receipt notice that OPT application is pending. <i>Travel after OPT is approved without a job offer or job to return to is considered <strong>risky</strong>. Speak to International Programs Office before making any travel plans</i><p> 
+              <h3>Travel Within the U.S.</h3>
+                <p>Whether you are traveling within the State of New York or elsewhere in the U.S., be sure to carry proof of your identity and immigration status at all times. This includes:</p>
+                <p>1) a valid passport.</p>
+                <p>2) a valid I-20</p>
+                <p>3) the I-94 departure card.</p><br>
+                <p>Note: We generally do not recommend carrying your passport and other original documents on a daily basis; however, if you are traveling outside of the immediate Canton, NY area you should carry your original documents, not photocopies. Unfortunately, a state driver's license or state ID is <strong>not an acceptable form</strong> for federal identification purposes</p>
+              </div>
+
+              <!-- Content completed-->  
+              <!-- Blog Comments -->
+
+                <!-- Comments Form -->
+                <div class="well">
+                    <h4>Leave a Comment:</h4>
+                    <form role="form">
+                        <div class="form-group">
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+                <hr>
+
+                <!-- Posted Comments -->
+
+                <!-- Comment -->
+                
+            <!-- Blog Sidebar Widgets Column -->
+            <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>DMV</h2>
+          <p>In the United States, a department of motor vehicles (DMV) is a state-level government agency that administers vehicle registration and driver licensing. Similar departments exist in Canada.</p>          
+          <p><a class="btn btn-default" href="DMV.html" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Green Card</h2>
+          <p>Alien registration card issued by the US immigration authorities to non-US citizens permitted to live and work in the US for an indefinite period. So called because originally it was printed on green paper</p>
+          <a class="btn btn-default" href="Greencard.html" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>SSN</h2>
+          <p>A Social Security number is a nine-digit number issued to U.S. citizens, permanent residents, and temporary residents under section of the Social Security Act. The number is issued to an individual by the Social Security Administration, an independent agency of the United States government.</p>
+          <p><a class="btn btn-default" href="SSN.html" role="button">View details &raquo;</a></p>
+        </div>
+         <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn">More</button>
+          <div id="myDropdown" class="dropdown-content">
+          <a href="Transit-students.html">Transit Visa for Students</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+        </div>
+      </div>
+      <hr>
+      <!-- Footer -->
+             <footer>
+        <p>&copy; Information Hubs 2016</p>
+      </footer>
+
+    </div>
+    
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
 </body>
+
 </html>
