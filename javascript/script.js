@@ -1,3 +1,5 @@
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
@@ -16,7 +18,3 @@ window.onclick = function(event) {
     }
   }
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> parent of b13acc2... added script for the registration page
