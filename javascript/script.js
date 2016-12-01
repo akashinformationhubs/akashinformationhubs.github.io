@@ -16,7 +16,3 @@ window.onclick = function(event) {
     }
   }
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> parent of b13acc2... added script for the registration page
