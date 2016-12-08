@@ -3,11 +3,8 @@ body {
     padding-top: 50px;
     padding-bottom: 20px;
     line-height:25px;
-    font-style: "Times New Roman";
-    font-size: 15px;  
-    background-image: url('../images/background.jpg');
-    opacity: 0.9;
-    filter: alpha(opacity=50); 
+    font-size: 15px;
+      
 }
 /* For Dropdown button on hover & focus */
 .dropbtn {
